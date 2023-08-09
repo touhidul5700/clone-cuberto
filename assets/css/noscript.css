@@ -1,0 +1,3 @@
+.webs-loader {display:none !important;}
+.webs-feedback-item {display:none;}
+.webs-feedback-item:first-child {display:block;}

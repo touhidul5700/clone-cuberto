@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fred Sosa - User Experience Strategist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preload" href="webs/fonts/averta/AvertaCY-Light.woff2" as="font" crossorigin="">
+    <link rel="preload" href="webs/fonts/averta/AvertaCY-Regular.woff2" as="font" crossorigin="">
+    <link rel="preload" href="webs/fonts/averta/AvertaCY-Semibold.woff2" as="font" crossorigin="">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+
+<body>
+    <div class="webs-loader webs-loader_overlay -visible"></div>
+    <nav class="webs-menu">
+        <div class="webs-menu-logo"><a href="index.html" aria-label="Fred"><svg class="webs-svgsprite -logo">
+                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#logo"></use>
+                </svg></a></div>
+        <div class="webs-menu-toggle"><button class="webs-btn webs-btn_menu" aria-label="menu" data-cursor="-menu"
+                data-cursor-stick=".webs-btn_menu-box"><span class="webs-btn_menu-title"
+                    style="visibility:hidden;">menu</span><span class="webs-btn_menu-box"
+                    data-magnetic="{&quot;x&quot;:&quot;0.08&quot;,&quot;y&quot;:&quot;0.08&quot;}"><span></span><span></span></span></button>
+        </div>
+
+
+        <!-- ===== MENU SECTION WITH SOCIAL MEDIA ACCOUUNTS ==   -->
+
+        <div class="webs-menu-box">
+            <div class="webs-menu-backdrop"></div>
+            <div class="webs-menu-content">
+                <div class="webs-menu-body">
+                    <div class="webs-menu-container">
+                        <div class="webs-menu-grid">
+                            <div class="webs-menu-grid-col -left">
+                                <div class="webs-menu-title">Social</div>
+                                <div class="webs-menu-social" data-cursor="-opaque"><a class="webs-menu-social-item"
+                                        href="www.linkedin.com/company/cuberto" target="_blank" rel="noopener"
+                                        data-magnetic=""><em><span data-text="LinkedIn">LinkedIn</span></em></a><a
+                                        class="webs-menu-social-item" href="www.behance.net/cuberto" target="_blank"
+                                        rel="noopener" data-magnetic=""><em><span
+                                                data-text="Behance">Behance</span></em></a><a
+                                        class="webs-menu-social-item" href="dribbble.com/cuberto" target="_blank"
+                                        rel="noopener" data-magnetic=""><em><span
+                                                data-text="Dribbble">Dribbble</span></em></a><a
+                                        class="webs-menu-social-item" href="www.instagram.com/cubertodesign/"
+                                        target="_blank" rel="noopener" data-magnetic=""><em><span
+                                                data-text="Instagram">Instagram</span></em></a><a
+                                        class="webs-menu-social-item"
+                                        href="www.youtube.com/channel/UCzestFrXpwSGCfwebsO2pObwQ" target="_blank"
+                                        rel="noopener" data-magnetic=""><em><span
+                                                data-text="YouTube">YouTube</span></em></a><a
+                                        class="webs-menu-social-item" href="twitter.com/cuberto" target="_blank"
+                                        rel="noopener" data-magnetic=""><em><span
+                                                data-text="Twitter">Twitter</span></em></a><a
+                                        class="webs-menu-social-item" href="github.com/Cuberto" target="_blank"
+                                        rel="noopener" data-magnetic=""><em><span
+                                                data-text="GitHub">GitHub</span></em></a>
+                                </div>
+
+                            </div>
+
+                            <!-- ===== MENU SECTION WITH SOCIAL MEDIA ACCOUUNTS ENDDDDDDDDDDD ==   -->
+
+
+                            <div class="webs-menu-grid-col -right">
+                                <div class="webs-menu-title">Menu</div>
+                                <div class="webs-menu-nav" role="navigation" data-cursor="-opaque">
+                                    <div class="webs-menu-nav-item"><a href="#" data-magnetic=""><em><span
+                                                    data-text="What I do">What I do</span></em></a>
+                                    </div>
+                                    <div class="webs-menu-nav-item"><a href="projects/index.html"
+                                            data-magnetic=""><em><span data-text="Projects">Projects</span></em></a>
+                                    </div>
+
+                                    <div class="webs-menu-nav-item"><a href="#" data-magnetic=""><em><span
+                                                    data-text="Contact">Contact</span></em></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="webs-menu-footer">
+                    <div class="webs-menu-container">
+                        <div class="webs-menu-title -sm">Get in touch</div>
+                        <div class="webs-menu-mail"><a href="mailto:info@cuberto.com"><span>info@cuberto.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="webs-menu-contact"><a class="webs-btn webs-btn_contact" href="#" data-cursor="-exclusion"
+                aria-label="Get in touch"><svg class="webs-svgsprite -chat">
+                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#chat">
+                    </use>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <div class="webs-view" data-controller="homeController" id="view-main"><canvas class="webs-scene"></canvas>
+        <div class="webs-layout" role="main">
+            <div class="webs-navbar">
+                <div class="webs-navbar-strip">
+                    <div class="webs-navbar-grid">
+                        <div class="webs-navbar-grid-col -left">
+                            <div class="webs-navbar-logo"><a href="index.html" aria-label="Fred">
+
+                                    <img style="width:150px; height:150px" class="webs-svgsprite -logo"
+                                        src="/assets/img/sprites/svgsprites.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="webs-navbar-grid-col -right">
+                            <div class="webs-navbar-link"><button class="webs-btn webs-btn_nav"><span>our
+                                        showreel</span>
+                                </button>
+                            </div>
+                            <div class="webs-navbar-toggle"><button class="webs-btn webs-btn_menu"
+                                    aria-label="menu"><span class="webs-btn_menu-title">menu</span><span
+                                        class="webs-btn_menu-box"
+                                        style="visibility:hidden"><span></span><span></span></span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <header class="webs-hero">
+                <div class="webs-hero-content">
+                    <div class="webs-hero-body">
+                        <div class="webs-hero-container">
+                            <div class="webs-hero-grid">
+                                <div class="webs-hero-grid-col -left">
+                                    <div class="webs-hero-video"><video preload="auto" loop="" muted="" playsinline="">
+                                            <source src="/webs/video/hero/0.mp4" type="video/mp4">
+                                        </video></div>
+                                </div>
+                                <div class="webs-hero-grid-col -right">
+                                    <div class="webs-hero-header">
+                                        <h1>I am Fredy Sosa</h1>
+                                    </div>
+                                    <div class="webs-hero-nav">
+                                        <div class="webs-hero-nav-item" data-video-src="/webs/video/hero/1.mp4">
+                                            <div class="webs-hero-nav-item-spacer"></div><a
+                                                href="#"><span>User</span></a>
+                                        </div>
+                                        <div class="webs-hero-nav-item" data-video-src="/webs/video/hero/2.mp4">
+                                            <div class="webs-hero-nav-item-spacer"></div><a href="#"><span
+                                                    class="-lg">Experience</span><span class="-sm">Experience</span></a>
+                                        </div>
+
+                                        <div class="webs-hero-nav-item" data-video-src="/webs/video/hero/3.mp4?2">
+                                            <div class="webs-hero-nav-item-spacer"></div><a
+                                                href="#"><span>Strategist</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="webs-hero-footer">
+                        <div class="webs-hero-container">
+                            <div class="webs-hero-text">
+                                <p>I design user-friendly products with a people-first approach. Let's collaborate to
+                                    bring your ideas to life and create innovative solutions that enhance the lives of
+                                    your users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="webs-featured">
+                <div class="webs-featured-content">
+                    <div class="webs-featured-container">
+                        <div class="webs-featured-header">
+                            <h2>Featured <span>projects</span></h2>
+                        </div>
+                        <div class="webs-featured-items">
+                            <div class="webs-featured-item" data-project="ulesson" data-project-bg="#FFF3F0"
+                                data-cursor="-color-ulesson">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/ulesson.html" aria-label="uLesson">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/ulesson/cover.png, webs/img/ulesson/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/ulesson/face.jpg"
+                                                    srcset="webs/img/ulesson/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>uLesson</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>Online platform</p>
+                                            <p>for distance learning</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>web, mobile, product</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webs-featured-item" data-project="riyadh" data-project-bg="#F5F9EF"
+                                data-cursor="-color-riyadh">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/riyadh.html" aria-label="Riyadh">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/riyadh/cover.png, webs/img/riyadh/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/riyadh/face.jpg"
+                                                    srcset="webs/img/riyadh/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>Riyadh</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>Official website of Riyadh,</p>
+                                            <p>Saudi Arabia's capital</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>design, development, product</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webs-featured-item" data-project="ferrumpipe" data-project-bg="#ebf9f4"
+                                data-cursor="-color-ferrumpipe">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/ferrumpipe.html" aria-label="Ferrumpipe">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/ferrumpipe/cover.png, webs/img/ferrumpipe/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/ferrumpipe/face.jpg"
+                                                    srcset="webs/img/ferrumpipe/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>Ferrumpipe</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>Galvanized steel metal</p>
+                                            <p>frame manufacturer</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>branding, design, development, product</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webs-featured-item" data-project="sleepiest" data-project-bg="#F4EDF5"
+                                data-cursor="-color-sleepiest">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/sleepiest.html" aria-label="Sleepiest">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/sleepiest/cover.png, webs/img/sleepiest/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/sleepiest/face.jpg"
+                                                    srcset="webs/img/sleepiest/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>Sleepiest</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>Sleep app helps millions</p>
+                                            <p>fall asleep every night</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>branding, design, mobile, product</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webs-featured-item" data-project="flipaclip" data-project-bg="#fee6ec"
+                                data-cursor="-color-flipaclip">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/flipaclip.html" aria-label="FlipaClip">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/flipaclip/cover.png, webs/img/flipaclip/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/flipaclip/face.jpg"
+                                                    srcset="webs/img/flipaclip/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>FlipaClip</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>The best tool for frame-</p>
+                                            <p>by-frame animation</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>web, development, product</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webs-featured-item" data-project="nana" data-project-bg="#FEF8F7"
+                                data-cursor="-color-nana">
+                                <div class="webs-featured-item-grid">
+                                    <div class="webs-featured-item-grid-col -right"><a class="webs-featured-item-img"
+                                            href="projects/case-pages/nana-asia.html" aria-label="Nana Asia">
+                                            <picture>
+                                                <source
+                                                    srcset="webs/img/nana/cover.png, webs/img/nana/cover%402x.png 2x"
+                                                    media="(max-width:1199px)"><img src="/webs/img/nana/face.jpg"
+                                                    srcset="webs/img/nana/face%402x.jpg 2x" loading="lazy" alt="">
+                                            </picture>
+                                        </a></div>
+                                    <div class="webs-featured-item-grid-col -left">
+                                        <div class="webs-featured-item-header">
+                                            <h3>Nana Asia</h3>
+                                        </div>
+                                        <div class="webs-featured-item-text">
+                                            <p>Asia’s digital magazine,</p>
+                                            <p>powered by women</p>
+                                        </div>
+                                        <div class="webs-featured-item-tags">
+                                            <p>web, design, development</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="webs-featured-more"><a class="webs-btn webs-btn_more" href="projects/index.html"
+                                data-magnetic=""><span class="webs-btn_more-title"><span
+                                        data-text="View all projects">View all projects</span></span><span
+                                    class="webs-btn_more-ripple"><span></span></span></a></div>
+                    </div>
+                </div>
+            </section>
+            <section class="webs-description">
+                <div class="webs-description-content -st -mb">
+                    <div class="webs-description-container">
+                        <div class="webs-description-header">
+                            <h2>Development and<br> design resources</h2>
+                        </div>
+                        <div class="webs-description-text">
+                            <p>We regularly release design courses, offer advice to newbie designers, walk you through
+                                creating awesome effects, and share source files.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="webs-rcfeed">
+                <div class="webs-rcfeed-content -ct -rb">
+                    <div class="webs-rcfeed-container -ml">
+                        <div class="webs-rcfeed-items"><a class="webs-rcfeed-item" href="#"><span
+                                    class="webs-rcfeed-item-img"><img
+                                        src="/webs/upload/40bf072f506912f62412b0de381e350d.png"
+                                        srcset="webs/upload/480b30071a8533b278c30dd7d9133f09.png 2x" loading="lazy"
+                                        alt=""></span><span class="webs-rcfeed-item-tag"><span
+                                        class="webs-rcfeed-item-tag-item">Design Course</span></span><span
+                                    class="webs-rcfeed-item-title">How To Make Epic Website Frontend
+                                    development</span></a><a class="webs-rcfeed-item" href="#"><span
+                                    class="webs-rcfeed-item-img"><img
+                                        src="webs/upload/8295234147dba0c85f1d91ea9e8b00e0.png"
+                                        srcset="webs/upload/885fbbc555395f745746b23b73f539f5.png 2x" loading="lazy"
+                                        alt=""></span><span class="webs-rcfeed-item-tag"><span
+                                        class="webs-rcfeed-item-tag-item">Dev Source</span></span><span
+                                    class="webs-rcfeed-item-title">Cuberto Mouse Follower</span></a><a
+                                class="webs-rcfeed-item -vql" href="#"><span class="webs-rcfeed-item-img"><img
+                                        src="webs/upload/3a214a858281bfd09e74136e5b32dd4a.jpg"
+                                        srcset="webs/upload/99d9ee549abf01940d4b1cfa04734b7d.jpg 2x" loading="lazy"
+                                        alt=""></span><span class="webs-rcfeed-item-tag"><span
+                                        class="webs-rcfeed-item-tag-item">Dev Source</span></span><span
+                                    class="webs-rcfeed-item-title">Making switch with SVG Distortion Effect</span></a>
+                        </div>
+                        <div class="webs-rcfeed-more"><a class="webs-btn webs-btn_more" href="#" data-magnetic=""><span
+                                    class="webs-btn_more-title"><span data-text="View all resources">View all
+                                        resources</span></span><span
+                                    class="webs-btn_more-ripple"><span></span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="webs-smfeed">
+                <div class="webs-smfeed-content -st -rb">
+                    <div class="webs-smfeed-container">
+                        <div class="webs-smfeed-header">
+                            <h2>New day –<br> new inspiro</h2>
+                        </div>
+                        <div class="webs-smfeed-carousel" data-cursor-text="Drag">
+                            <div class="webs-smfeed-items"><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/reel/Cq-syAON_nf/" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image2.jpg?_nc_cat=108&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CwF8wmowkP8AX_UrWzq&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfDnMcmCHAV_SBIc-AjMiscPRXa-YCgMCYbMvkssD6np6w&amp;oe=644643F0"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">We launched a new
+                                        website with a very complex structure</span></a><a
+                                    class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21194415-PleaseAssistMe-Website-Redesign"
+                                    target="_blank" rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image20.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>Fred</span><span class="webs-smfeed-item-text">PleaseAssistMe Website
+                                        Redesign</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/p/Cq5h481tgPG/" target="_blank" rel="noopener"><span
+                                        class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image3.jpg?_nc_cat=106&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=lPfDP8lZOUIAX-ywk8g&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfDxvPUdbILxw80WgvhWORVnDCfK0eX_9BZ44uxp8lFp0w&amp;oe=644470E7"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">Skincare app
+                                        redesign</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/reel/CqxjXIOLEcA/" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image4.jpg?_nc_cat=102&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=6fAN69er0YIAX8XoS4v&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_Afwebsnz9u7hUyeVRZWG62t38xkhEkNnI4E21ETgYhrixBCQ&amp;oe=6445BC56"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">Today we’re
+                                        excited
+                                        to celebrate that our new portfolio site has picked up Site of the Day as well
+                                        Developer Awards on @awwwards </span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21145605-Cuberto-Hello-SOTD-on-AWWWARDS"
+                                    target="_blank" rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image9.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Cuberto Hello - SOTD on
+                                        AWWWARDS</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/p/CqqFKQNtrYT/" target="_blank" rel="noopener"><span
+                                        class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image5.jpg?_nc_cat=111&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=7XlYSNbvOIcAX9tuiTW&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfBe0SpxK3WXeorkUsZCxeyRSIkLkIUs4abRqeS1lIqQqg&amp;oe=64452E53"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">Magma web3
+                                        platform
+                                        redesign</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21118990-Zelt-Website-Development" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image8.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Zelt Website
+                                        Development</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/p/CqnaQZHjSRF/" target="_blank" rel="noopener"><span
+                                        class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image6.jpg?_nc_cat=102&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=PKCXz9BTrq4AX_I3YZJ&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfAP0w8DdNX_0SxTF9rN01teVeDQQNLhRKBehBHJ_xgSHg&amp;oe=64449A5C"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">Home management
+                                        app
+                                        UI design</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21107854-Zelt-graphic-assets" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image7.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Zelt graphic
+                                        assets</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21043115-Magma-Site-Development" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image6.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Magma Site
+                                        Development</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/reel/CqS4JhVD30d/" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image7.jpg?_nc_cat=109&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=voHfUc8byhEAX960ac_&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfB1LR1l1Lu4-1q26yCe_rscRXNVWrD1xygVQaLr5ulxPA&amp;oe=64453106"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">This is one of the
+                                        most complex websites we have ever built</span></a><a
+                                    class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/21031939-Home-management-app-UI-design"
+                                    target="_blank" rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image5.png.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Home management app UI
+                                        design</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/reel/Cp2fEO5DRhD/" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image8.jpg?_nc_cat=105&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=3gw0i-swvC8AX9j2DV4&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfAMfgSq50jkMdfdsnASFMSjMWOxtp57xzxAYXCnQFKBzQ&amp;oe=6444EA34"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">Welcome to
+                                        hello.cuberto.com</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/20933412-Web3-platform" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image4.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Web3
+                                        platform</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/20866171-PollPapa-Website-Development"
+                                    target="_blank" rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image3.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">PollPapa Website
+                                        Development</span></a><a class="webs-smfeed-item -dribbble"
+                                    href="https://dribbble.com/shots/20805618-Weera-Website-Development" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Proimg/Image2.png?resize=400x300" loading="lazy" alt=""
+                                            data-lazy-force=""></span><span class="webs-smfeed-item-url"><svg
+                                            class="webs-svgsprite -dribbble">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble"></use>
+                                        </svg>cuberto</span><span class="webs-smfeed-item-text">Weera Website
+                                        Development</span></a><a class="webs-smfeed-item -instagram"
+                                    href="https://www.instagram.com/reel/CpK1s4kjVa3/" target="_blank"
+                                    rel="noopener"><span class="webs-smfeed-item-img"><img
+                                            src="Portfolio/img/Image10.jpg?_nc_cat=107&amp;cwebs=1-7&amp;_nc_sid=8ae9d6&amp;_nc_ohc=p67q_FnZ0sQAX98tHLS&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=00_AfCgw-0-BhT-Mni4W38AWbCg0cWVsbhk6Etla5Y2QObmHw&amp;oe=6444BF7E"
+                                            loading="lazy" alt="" data-lazy-force=""></span><span
+                                        class="webs-smfeed-item-url"><svg class="webs-svgsprite -instagram">
+                                            <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram"></use>
+                                        </svg>cubertodesign</span><span class="webs-smfeed-item-text">As a part of one
+                                        of
+                                        our projects it was required to render an entire city with unique urban
+                                        objects</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="webs-outro">
+                <div class="webs-outro-content" data-cursor="-inverse">
+                    <div class="webs-outro-body">
+                        <div class="webs-outro-container">
+                            <div class="webs-outro-header">
+                                <h2>Have an idea?</h2><a href="projects/contact.html">Tell us about it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="webs-outro-footer">
+                        <div class="webs-outro-container">
+                            <div class="webs-outro-grid">
+                                <div class="webs-outro-grid-col -left">
+                                    <div class="webs-outro-mail"><a
+                                            href="mailto:info@cuberto.com"><em><span>info@cuberto.com</span></em></a>
+                                    </div>
+                                    <div class="webs-outro-address">
+                                        <address>
+                                            <p>901 N Pitt Str., Suite 170</p>
+                                            <p>Alexandria, VA 22314, USA</p>
+                                        </address>
+                                    </div>
+                                    <div class="webs-outro-link"><a class="webs-outro-link-item" href="#">Privacy
+                                            Policy</a>
+                                    </div>
+                                </div>
+                                <div class="webs-outro-grid-col -right">
+                                    <div class="webs-outro-social">
+                                        <div class="webs-outro-social-row"><a class="webs-outro-social-item"
+                                                href="www.linkedin.com/company/cuberto" target="_blank" rel="noopener"
+                                                aria-label="LinkedIn"><span class="webs-outro-social-item-title"><span
+                                                        data-text="LinkedIn">LinkedIn</span></span><svg
+                                                    class="webs-svgsprite -linkedin">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#linkedin">
+                                                    </use>
+                                                </svg></a><a class="webs-outro-social-item -patreon"
+                                                href="twitter.com/cuberto" target="_blank" rel="noopener"
+                                                aria-label="Twitter"><span class="webs-outro-social-item-title"><span
+                                                        data-text="Twitter">Twitter</span></span><svg
+                                                    class="webs-svgsprite -twitter">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#twitter">
+                                                    </use>
+                                                </svg></a><a class="webs-outro-social-item -behance"
+                                                href="www.behance.net/cuberto" target="_blank" rel="noopener"
+                                                aria-label="Behance"><span class="webs-outro-social-item-title"><span
+                                                        data-text="Behance">Behance</span></span><svg
+                                                    class="webs-svgsprite -behance">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#behance">
+                                                    </use>
+                                                </svg></a></div>
+                                        <div class="webs-outro-social-row"><a class="webs-outro-social-item -dribble"
+                                                href="dribbble.com/cuberto" target="_blank" rel="noopener"
+                                                aria-label="Dribbble"><span class="webs-outro-social-item-title"><span
+                                                        data-text="Dribbble">Dribbble</span></span><svg
+                                                    class="webs-svgsprite -dribbble">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#dribbble">
+                                                    </use>
+                                                </svg></a><a class="webs-outro-social-item -instagram"
+                                                href="www.instagram.com/cubertodesign/" target="_blank" rel="noopener"
+                                                aria-label="Instagram"><span class="webs-outro-social-item-title"><span
+                                                        data-text="Instagram">Instagram</span></span><svg
+                                                    class="webs-svgsprite -instagram">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#instagram">
+                                                    </use>
+                                                </svg></a><a class="webs-outro-social-item -youtube"
+                                                href="www.youtube.com/channel/UCzestFrXpwSGCfwebsO2pObwQ"
+                                                target="_blank" rel="noopener" aria-label="YouTube"><span
+                                                    class="webs-outro-social-item-title"><span
+                                                        data-text="YouTube">YouTube</span></span><svg
+                                                    class="webs-svgsprite -youtube">
+                                                    <use xlink:href="/assets/img/sprites/svgsprites.svg?2#youtube">
+                                                    </use>
+                                                </svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ===== Important JavaScript Bundle For Hover and Other Animations ==   -->
+    <script src="assets/js/bundle.js" defer=""></script>
+    <!-- ===== NO SCRIPIT Important CSS  ==   -->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css">
+    </noscript>
+
+
+</body>
+
+</html>

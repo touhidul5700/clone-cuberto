@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+.product-overvew-heading {
+    border-bottom: 1px solid black;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.product-overvew-heading span {
+    font-weight: 200;
+}
+
+.overvew-container {
+    margin-top: -400px;
+}
+
+.overvew-description {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.mb-500 {
+    margin-bottom: -500px;
+}
+.mt-500 {
+    margin-top: -500px;
+}
+.mt500 {
+    margin-top: 500px;
+}
+.mb50{
+    margin-bottom: 50px;
+}
+.mb200{
+    margin-bottom: 200px;
+}
+.mt-100 {
+    margin-top: -100px;
+}
+.mt100{
+    margin-top: 100px;
+}
+.mt200{
+    margin-top: 200px;
+}
+.mt-200{
+    margin-top: -200px;
+}
+.flipclip-video-2 {
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.flipclip-video-2 video {
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 50PX;
+}
+.r-{
+    border-radius: 0;
+}
+.r {
+    border-radius: 50px;
+}
+
+video {
+    border-radius: 50px;
+}
+
+.flip-sit-of-the-ay i {
+    font-weight: 200;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    margin-top: 500px;
+    height: 100%;
+    background-image: linear-gradient(rgba(60, 60, 60, 0.362), rgba(71, 71, 71, 0.186));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-container{
+    margin-top: -100px;
+}
+.footer-video {
+    width: 100%;
+
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 0;
+    z-index: -1;
+}
+
+footer button {
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+
+}
+
+footer button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.f-footer-contact {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.f-footer-contact a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.f-footer-contact a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    transition: 1s;
+}
+.Privacy{
+    border: 0px !important;
+    text-decoration: underline;
+}
+.Privacy:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0;
+    transition: 1s;
+}
+.nana-extra-img{
+    display: flex;
+}
+.nana-testymonial-container{
+    margin-left: 200px;
+    width: 60%;
+}
+.nana-testymonial-container span{
+    color: rgb(84, 84, 85);
+    font-size: 16px;
+}
+.nana-testymonial-container b{
+    font-size: 16px;
+}
